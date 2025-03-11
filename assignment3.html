@@ -7,10 +7,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://kit.fontawesome.com/7f667f2aa2.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-<!--this header section with navigation bar--> <!---->
+<!--this header section with navigation bar--> 
 <header class="lg:mx-[80px] ">
     <div class="navbar bg-base-100 outline-2 lg:outline-none">
         
@@ -53,10 +54,10 @@
 
 
       <!-- this part is for banner section-->
-       <div class="lg:h-[749px] lg:w-[1320px] lg:relative mx-6 ">
+       <div class="lg:h-[749px] lg:w-[1320px] lg:relative mx-6 lg:mx-0 ">
 <!-- this part is for heading and paragraph-->
 
-        <div class="lg:absolute lg:top-45 lg:left-20 top-0">
+        <div class="lg:absolute lg:top-45 lg:mx-0  mx-6">
             <h1 class="text-4xl font-bold">Pamper Your Pet,<br>
                  Because They Deserve <br>
                   the Bes
@@ -71,11 +72,59 @@
 
         </div>
         
-        <img class="g" src="./cat-big.png" alt="">
+        <img class="" src="./cat-big.png" alt="">
 
        
        </div>
 
+                                                        <!-- this a header card part --><!---->
+       <h2 class="text-3xl font-bold mx-4 lg:mx-0 lg:pt-32 lg:pb-12 pt-14 pb-8">
+        Browse By Categories
+       </h2>
+
+
+                                    <!-- this part is for all card's father  div-->
+
+        <div class=" grid lg:grid-cols-6 mx-4 lg:mx-0 grid-cols-2 gap-4 lg:mb-32 mb-14">
+            <div class="  bg-[#F9DF8A] text-center rounded-lg ">
+                <img class=" mt-14 mx-auto p-6 bg-white rounded-[50%]" src="./bird-cartoon.png " alt="">
+                <h3 class="pt-6 font-bold text-3xl">Bird</h3>
+                <p class="text-2xl pt-4 pb-8">3 items</p>
+            </div>
+
+
+            <div class="  bg-[#F9DF8A] text-center rounded-lg ">
+                <img class=" mt-14 mx-auto p-6 bg-white rounded-[50%]" src="./fish-cartoon.png " alt="">
+                <h3 class="pt-6 font-bold text-3xl">Fish</h3>
+                <p class="text-2xl pt-4 pb-8">3 items</p>
+            </div>
+
+
+            <div class="  bg-[#F9DF8A] text-center rounded-lg ">
+                <img class=" mt-14 mx-auto p-6 bg-white rounded-[50%]" src="./dog-cartoon.png " alt="">
+                <h3 class="pt-6 font-bold text-3xl">Dog</h3>
+                <p class="text-2xl pt-4 pb-8">3 items</p>
+            </div>
+
+            <div class="  bg-[#F9DF8A] text-center rounded-lg ">
+                <img class=" mt-14 mx-auto p-6 bg-white rounded-[50%]" src="./cat-cartoon.png " alt="">
+                <h3 class="pt-6 font-bold text-3xl">Cat</h3>
+                <p class="text-2xl pt-4 pb-8">3 items</p>
+            </div>
+
+            <div class="  bg-[#F9DF8A] text-center rounded-lg ">
+                <img class=" mt-14 mx-auto p-6 bg-white rounded-[50%]" src="./mouse-cartoon.png " alt="">
+                <h3 class="pt-6 font-bold text-3xl">Mouse</h3>
+                <p class="text-2xl pt-4 pb-8">3 items</p>
+            </div>
+
+            <div class="  bg-[#F9DF8A] text-center rounded-lg ">
+                <img class=" mt-14 mx-auto p-6 bg-white rounded-[50%]" src="./rabbit-cartoon.png " alt="">
+                <h3 class="pt-6 font-bold text-3xl">Rabbit</h3>
+                <p class="text-2xl pt-4 pb-8">3 items</p>
+            </div>
+            
+        </div>
 
       
 
@@ -83,8 +132,174 @@
 
 <!-- this is a main part-->
 
-<main>
+<main class=" bg-[#FFF9F4]">
+    <div class="lg:mx-16 ">
+<h2 class="text-3xl font-bold pt-36 pb-12">
+    Trending Pet Products
+</h2>
 
+
+
+<div>  <!-- father of all grid-->
+
+    <div class=" grid lg:grid-cols-3 grid-cols-1 gap-4"><!--sub grid 1-->
+            <div class="relative pl-4 w-[424px] rounded-lg h-[402px]  bg-[#F9DF8A] mx-auto lg:mx-0">
+                <h3 class="pt-20 pb-4 text-3xl font-bold">
+                    T- Shirt For Dogs
+                </h3>
+                <p class="pb-4">
+                    Discover a world of treats, toys, and <br>
+                     essentials handpicked for 
+                </p>
+                <button class="btn btn-active btn-secondary w-[159px] p-3 bg-white">Shop now</button>
+                <img class="absolute right-4 top-20 " src="./cute-pet-small.png" alt="">
+            </div>
+                <!--sub grid 2-->
+           <div class="grid col-span-2">
+
+
+
+
+                  <div class="grid lg:grid-cols-3 lg:grid-rows-3 grid-cols-2 grid-rows-4   gap-2 mx-4 lg:mx-0">
+                    <div class="flex w-[275px]    h-[118px] space rounded-lg justify-center items-center bg-white">
+
+                        <div class=" ">
+                            <img class="items-center mr-4 justify-center p-4  gap-4 bg-[#FFF9F4] bg-wid " src="./dog-cartoon.png" alt="">
+                        </div>
+                        <div class="pl-4">
+                            <div class="flex"><i class="fa-solid fa-star  text-red-300 pr-2"></i>
+                                <p class="font-medium">4.5</p></div>
+                                <p class="font-medium" > ped bed</p>
+                                <p class="font-medium" >$39.99</p>
+    
+                        </div>
+                    </div>
+                  
+                    <div class="flex  rounded-lg w-[275px] h-[118px] space justify-center items-center bg-white">
+
+                        <div class=" ">
+                            <img class="items-center mr-4 justify-center p-4  gap-4 bg-[#FFF9F4] bg-wid " src="./dog-cartoon.png" alt="">
+                        </div>
+                        <div class="pl-4">
+                            <div class="flex"><i class="fa-solid fa-star  text-red-300 pr-2"></i>
+                                <p class="font-medium">4.5</p></div>
+                                <p class="font-medium" > ped bed</p>
+                                <p class="font-medium" >$39.99</p>
+    
+                        </div>
+                    
+                </div>
+                    <div class="flex rounded-lg w-[275px] h-[118px] space justify-center items-center bg-white">
+
+                        <div class=" ">
+                            <img class="items-center mr-4 justify-center p-4  gap-4 bg-[#FFF9F4] bg-wid " src="./dog-cartoon.png" alt="">
+                        </div>
+                        <div class="pl-4">
+                            <div class="flex"><i class="fa-solid fa-star  text-red-300 pr-2"></i>
+                                <p class="font-medium">4.5</p></div>
+                                <p class="font-medium" > ped bed</p>
+                                <p class="font-medium" >$39.99</p>
+    
+                        </div>
+                    </div>
+                    <div class="flex rounded-lg w-[275px] h-[118px] space justify-center items-center bg-white">
+
+                        <div class=" ">
+                            <img class="items-center mr-4 justify-center p-4  gap-4 bg-[#FFF9F4] bg-wid " src="./dog-cartoon.png" alt="">
+                        </div>
+                        <div class="pl-4">
+                            <div class="flex"><i class="fa-solid fa-star  text-red-300 pr-2"></i>
+                                <p class="font-medium">4.5</p></div>
+                                <p class="font-medium" > ped bed</p>
+                                <p class="font-medium" >$39.99</p>
+    
+                        </div>
+                    </div>
+                    <div class="flex rounded-lg w-[275px] h-[118px] space justify-center items-center bg-white">
+
+                        <div class=" ">
+                            <img class="items-center mr-4 justify-center p-4  gap-4 bg-[#FFF9F4] bg-wid " src="./dog-cartoon.png" alt="">
+                        </div>
+                        <div class="pl-4">
+                            <div class="flex"><i class="fa-solid fa-star  text-red-300 pr-2"></i>
+                                <p class="font-medium">4.5</p></div>
+                                <p class="font-medium" > ped bed</p>
+                                <p class="font-medium" >$39.99</p>
+    
+                        </div>
+                    </div>
+                    <div class="flex rounded-lg w-[275px] h-[118px] space justify-center items-center bg-white">
+
+                        <div class=" ">
+                            <img class="items-center mr-4 justify-center p-4  gap-4 bg-[#FFF9F4] bg-wid " src="./dog-cartoon.png" alt="">
+                        </div>
+                        <div class="pl-4">
+                            <div class="flex"><i class="fa-solid fa-star  text-red-300 pr-2"></i>
+                                <p class="font-medium">4.5</p></div>
+                                <p class="font-medium" > ped bed</p>
+                                <p class="font-medium" >$39.99</p>
+    
+                        </div>
+                    </div>
+                    <div class="flex rounded-lg w-[275px] h-[118px] space justify-center items-center bg-white">
+
+                        <div class=" ">
+                            <img class="items-center mr-4 justify-center p-4  gap-4 bg-[#FFF9F4] bg-wid " src="./dog-cartoon.png" alt="">
+                        </div>
+                        <div class="pl-4">
+                            <div class="flex"><i class="fa-solid fa-star  text-red-300 pr-2"></i>
+                                <p class="font-medium">4.5</p></div>
+                                <p class="font-medium" > ped bed</p>
+                                <p class="font-medium" >$39.99</p>
+    
+                        </div>
+                    </div>
+                    <div class="flex rounded-lg w-[275px] h-[118px] space justify-center items-center bg-white">
+
+                        <div class=" ">
+                            <img class="items-center mr-4 justify-center p-4  gap-4 bg-[#FFF9F4] bg-wid " src="./dog-cartoon.png" alt="">
+                        </div>
+                        <div class="pl-4">
+                            <div class="flex"><i class="fa-solid fa-star  text-red-300 pr-2"></i>
+                                <p class="font-medium">4.5</p></div>
+                                <p class="font-medium" > ped bed</p>
+                                <p class="font-medium" >$39.99</p>
+    
+                        </div>
+                    </div>
+                    <div class=" hidden lg:flex lg:block rounded-lg w-[275px] h-[118px] space justify-center items-center  bg-white">
+
+                        <div class=" hidden md:block">
+                            <img class="items-center mr-4 justify-center p-4  gap-4 bg-[#FFF9F4] bg-wid " src="./dog-cartoon.png" alt="">
+                        </div>
+                        <div class=" hidden md:block pl-4">
+                            <div class="flex"><i class="fa-solid fa-star  text-red-300 pr-2"></i>
+                                <p class="font-medium">4.5</p></div>
+                                <p class="font-medium" > ped bed</p>
+                                <p class="font-medium" >$39.99</p>
+    
+                        </div>
+                    </div>
+
+
+
+
+
+                        
+
+
+
+
+
+
+                           
+    
+
+    <div>
+
+    </div>
+</div>
+</div>
 </main>
 
 <!-- this footer part-->
